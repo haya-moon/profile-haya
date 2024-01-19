@@ -1,16 +1,96 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ProjectHaya</title>
+    <title>Project Haya</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”>
+    <!-- jQuery library -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@300;400;500&family=Playfair+Display&family=Poppins:wght@600&display=swap');
+    </style>
   </head>
 
   <body>
+    <div class="menu">
+    <nav>
+      <a href="http://127.0.0.1:51527/haya_cv/index.html"> <img src="images/haya.png" class="user-pic"></a>
+      <ul>
+        <li><a href="http://127.0.0.1:51527/haya_cv/index.html">Home</a></li>
+        <li><a href="#">My Work</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+        <img src="https://lh3.googleusercontent.com/a/ACg8ocLDFKWebCm4wpEm9Wqls0KllT7sLt8ysaYgBjfDHG3jo2fj=s576-c-no" class="user-pic" onclick="toggleMenu()">
+
+        <div class="sub-menu-wrap" id="subMenu">
+          <div class="sub-menu">
+            <div class="user-info">
+              <img src="https://lh3.googleusercontent.com/a/ACg8ocLDFKWebCm4wpEm9Wqls0KllT7sLt8ysaYgBjfDHG3jo2fj=s576-c-no" class="user-pic">
+              <h3>Haya</h3>
+            </div>
+            <hr>
+            <a href="#" class="sub-menu-link">
+              <span style="color: #d3bfb6; margin-right: 15px;">
+              <i class="fa-solid fa-user fa-xl"></i>
+              </span>
+              <p>Edit Profile</p>
+              <span>></span>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+              <span style="color: #d3bfb6; margin-right: 15px;">
+              <i class="fa-solid fa-gear fa-xl"></i>
+              </span>
+              <p>Settings</p>
+              <span>></span>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+              <span style="color: #d3bfb6; margin-right: 15px;">
+              <i class="fa-solid fa-circle-question fa-xl"></i>
+              </span>
+              <p>Help & Support</p>
+              <span>></span>
+            </a>
+          </div>
+        </div>
+    </nav>
+  </div>
+
+  <div class="container">
+
+  </div>
+
+
+  <div class>
+    <div class="footer"></div>
+
+    <footer>
+      <a href="https://www.instagram.com/lemondisc0/" id="btn-instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+    </footer>
+  </div>
+
+  <script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu(){
+      subMenu.classList.toggle("open-menu");
+    }
+  </script>
     <%= yield %>
   </body>
 </html>
