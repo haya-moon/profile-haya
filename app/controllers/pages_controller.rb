@@ -10,4 +10,10 @@ class PagesController < ApplicationController
     @members = ["Haya"]
   end
 
+  def work
+  end
+
+  def experience
+  end
+
 end
