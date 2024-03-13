@@ -16,6 +16,8 @@
 
  body{
   background: rgb(227, 220, 216);
+  font-family: "Playfair Display 700";
+
 }
 /*
 .header {
@@ -46,6 +48,7 @@ h1 {
   position: relative;
 }
 /* */
+
 .menu {
   width: 100%;
   min-height: 100vh;
