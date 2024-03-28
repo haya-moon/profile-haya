@@ -1,0 +1,44 @@
+    <!-- Navigation -->
+
+    <script>
+  $(document).ready(function() {
+    $(".navbar-toggler").on("click", function() {
+      $(".collapse").collapse("toggle");
+    });
+  });
+</script>
+
+<nav class="navbar fixed">
+      <%= link_to root_path, class: "navbar-brand mb-0" do %>
+        <%= image_tag "haya.png", class: "logo", style: 'height: 75px; margin-left: -100px' %>
+      <% end %>
+      <button type="button" class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <%= link_to "Home", root_path, class: "nav-link" %>
+        </li>
+        <span>
+        </span>
+        <li class="nav-item active">
+          <%= link_to "About", about_path, class: "nav-link" %>
+        </li>
+        <li class="nav-item active">
+          <%= link_to "Contact", "#{root_path}#contact", class: "page-scroll" %>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+
+      <%# <div class="dropdown">
+      <button type="button" class="navbar-btn" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      </div> %>
+    <%# </div> %>
+  <%# </nav>
+        <div class="container-black">
+      </div> %>

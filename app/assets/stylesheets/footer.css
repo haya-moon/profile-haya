@@ -1,0 +1,40 @@
+footer {
+  padding: 25px 0;
+  text-align: center;
+  background-color: rgb(255, 240, 235);
+}
+
+footer span.copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+
+footer ul.quicklinks {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-transform: none;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 40px;
+}
+.fa-instagram {
+  color: #1ee2e7;
+  position: absolute;
+}
+
+#btn-instagram {
+  transition: 1s;
+  margin: 0 auto;
+  position: relative;
+}
+
+#btn-instagram:hover {
+  background-color: black;
+}
+
+/* footer {
+  padding: 100px;
+  height: 100px;
+  align-items: center;
+} */

@@ -1,0 +1,143 @@
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  @include transition($transition-collapse);
+}
+
+.navbar-toggler {
+  margin-right: 1%;
+}
+
+.navbar {
+  background-color: rgb(255, 240, 235);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 10px;
+  /* background-color: #FFFDEF; */
+}
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  z-index: 1000; /* Ensure it's above other elements */
+  display: none; /* Initially hidden */
+  visibility: inherit;
+}
+
+/* button.navbar-toggler-icon {
+  width: 50px;
+  height: 50px;
+} */
+
+#user-pic {
+  /* background-image: url("haya.png"); */
+  cursor: pointer;
+  margin-left: -70%;
+}
+
+/* .user-info {
+  width: 80px;
+  border-radius: 50%;
+} */
+
+.navbar-btn {
+  margin-right: 25px;
+}
+
+.navbar ul {
+  width: 100%;
+  text-align: right;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 15px 70px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.navbar-brand {
+  margin-left: 8%;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.navbar-collapse {
+
+}
+
+@media (min-width: 576px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item {
+    padding: 0 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    --navbar-height: 56px;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--navbar-height));
+    transition: all 320ms ease-in-out;
+  }
+}
+
+/* .container-black {
+  background-color: black;
+  width: 100%;
+  height: 5px;
+} */
+
+/* .navbar-collapse.collapsing {
+  transition-property: height, visibility;
+  transition-duration: 0s;
+}
+
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+} */
