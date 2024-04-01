@@ -1,46 +1,10 @@
-/* .banner-large {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
-
-h3 {
-  font-family: "Poppins";
-}
-
-/* .btn-home {
-  background-color: rgb(237, 188, 96);
-  margin-left: 15px;
-} */
-
-/* .me-photo {
-  object-fit: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
-  }
-  */
-
-  /*!
- * Start Bootstrap - Agency Bootstrap Theme (https://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
 /*
-body {
-  overflow-x: hidden;
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-} */
-
 .text-muted {
-  color: #777;
-}
+  color: #dbd8d8;
+} */
 
 .text-primary {
-  color: #1ee2e7;
+  color: rgb(255, 255, 255);
 }
 
 p {
@@ -61,14 +25,14 @@ a.active {
 }
 
 a {
-  color: #1ee2e7;
+  color: #44644b;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #17d0d5;
+  color: #44644b;
 }
 
 h1,
@@ -95,12 +59,12 @@ h6 {
 }
 
 .btn-primary {
-  border-color: #85c894;
   text-transform: uppercase;
   font-family: "Poppins";
   font-weight: 700;
   color: #fff;
-  background-color: #85c894;
+  background-color: #587d60;
+  --bs-btn-border-color: #587d60;
 }
 
 .btn-primary:hover,
@@ -108,9 +72,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #85c894;
+  border-color: #44644b;
   color: #fff;
-  background-color: #85c894;
+  background-color: #44644b;
 }
 
 .btn-primary:active,
@@ -134,13 +98,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #85c894;
-  background-color: #85c894;
+  border-color: #587d60;
+  background-color: #587d60;
 }
 
 .btn-primary .badge {
-  color: #aff4f5;
-  background-color: #fff;
+  background-color: #f8f1e6;
 }
 
 .btn-xl {
@@ -151,7 +114,7 @@ fieldset[disabled] .btn-primary.active {
   font-size: 20px;
   font-weight: 700;
   color: black;
-  background-color: #9dd8a9;
+  background-color: #f8f1e6;
 }
 
 .btn-xl:hover,
@@ -160,7 +123,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: black;
-  background-color: #85c894;
+  background-color: #e2d1b5;
 }
 
 .btn-xl:active,
@@ -184,12 +147,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #1ee2e7;
-  background-color: #1ee2e7;
+
 }
 
 .btn-xl .badge {
-  color: #fed136;
+  color: #587d60;
   background-color: #fff;
 }
 
@@ -285,11 +247,11 @@ fieldset[disabled] .btn-xl.active {
   } */
 
 
+/* Header */
 header {
   text-align: center;
-  color: #fff;
   background-attachment: scroll;
-  background-image: url(mountain2.jpg);
+  background-image: url(forest.webp);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -307,20 +269,11 @@ header .intro-text {
 header .intro-text .intro-lead-in {
   margin-bottom: 110px;
   font-family: 'Poppins';
-  font-size: 90px;
+  font-size: 95px;
   line-height: 40px;
-  color: black;
+  color: #f8f1e6;
 }
 
-header .intro-text .intro-heading {
-  margin-bottom: 25px;
-  text-transform: uppercase;
-  font-family: 'Poppins';
-  font-size: 50px;
-  font-weight: 700;
-  line-height: 50px;
-  color: black;
-}
 
 @media(min-width:768px) {
   header .intro-text {
@@ -331,49 +284,50 @@ header .intro-text .intro-heading {
   header .intro-text .intro-lead-in {
       margin-bottom: 110px;
       font-family: 'Poppins';
-      font-size: 90px;
+      font-size: 95px;
       line-height: 40px;
-      color: black;
-  }
-
-  header .intro-text .intro-heading {
-      margin-bottom: 50px;
-      text-transform: uppercase;
-      font-family: 'Poppins';
-      font-size: 75px;
-      font-weight: 700;
-      line-height: 75px;
-      color: black;
+      color: #f8f1e6;
   }
 }
 
+
+.card-section {
+  height: 50%;
+  width: 50%;
+}
+
+/* Section */
 section {
-  padding: 100px 0;
+  /* padding: 50px 0; */
+  margin-top: 80px;
 }
 
 section h2.section-heading {
-  margin-top: 0;
-  margin-bottom: 70px;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+section h2.section-heading-bottom {
+  margin-top: 60px;
   font-size: 40px;
 }
 
 section h3.section-subheading {
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   text-transform: none;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-  font-weight: 400;
+  font-size: 20px;
   text-align: center;
+  color: white;
 }
 
 .fa-circle:before {
-  color: #85c894;
+  color: #587d60;
 }
 
 @media(min-width:768px) {
   section {
-      padding: 150px 0;
+      /* padding: 50px 0; */
+      margin-top: 80px;
   }
 }
 
@@ -382,6 +336,31 @@ section h3.section-subheading {
   text-transform: none;
 }
 
+.card-section {
+  margin-left: 25%;
+}
+
+.carousel-inner {
+  background-image: url('1.png');
+}
+
+.carousel-item {
+  background-image: url('2.png');
+}
+
+.third {
+  background-image: url('3.png');
+}
+
+
+.first,
+.second,
+.third {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
 
 .team-member {
   margin-bottom: 50px;
@@ -403,194 +382,7 @@ section h3.section-subheading {
   margin-top: 0;
 }
 
-
-section#contact {
-  background-color: #222;
-  background-image: url(https://unsplash.imgix.net/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG?q=75&fm=jpg&auto=format&s=986aaa92169d4e97975fa66ebd60bafd);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
-  color: #fff;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-
-section#contact .form-control:focus {
-  border-color: #1ee2e7;
-  box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact .text-danger {
-  color: #e74c3c;
-}
-
-
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 40px;
-  outline: 0;
-  color: #fff;
-  background-color: #222;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-}
-
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  background-color: #51925f;
-}
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-  outline: 0;
-}
-
-.portfolio-modal .modal-content {
-  padding: 100px 0;
-  min-height: 100%;
-  border: 0;
-  border-radius: 0;
-  text-align: center;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
-}
-
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-  opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 75px;
-  margin-left: 35px;
-  background-color: #222;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 75px;
-  background-color: #222;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-::-moz-selection {
-  text-shadow: none;
-  background: #C3B7AB;
-}
-
-::selection {
-  text-shadow: none;
-  background: #C3B7AB;
-}
-
-img::selection {
-  background: 0 0;
-}
-
-img::-moz-selection {
-  background: 0 0;
-}
-
+/*
 body {
-  webkit-tap-highlight-color: #C3B7AB;
-}
+  webkit-tap-highlight-color: #f8f1e6;
+} */

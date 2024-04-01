@@ -1,36 +1,23 @@
 footer {
   padding: 25px 0;
   text-align: center;
-  background-color: rgb(255, 240, 235);
+  background-color: #f8f1e6;
 }
 
 footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Poppins';
   line-height: 40px;
+  font-size: 15px;
 }
 
 footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: uppercase;
   text-transform: none;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Poppins';
   line-height: 40px;
-}
-.fa-instagram {
-  color: #1ee2e7;
-  position: absolute;
-}
-
-#btn-instagram {
-  transition: 1s;
-  margin: 0 auto;
-  position: relative;
-}
-
-#btn-instagram:hover {
-  background-color: black;
 }
 
 /* footer {
@@ -38,3 +25,53 @@ footer ul.quicklinks {
   height: 100px;
   align-items: center;
 } */
+
+/* Social Buttons */
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  font-size: 40px;
+  line-height: 40px;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
+  color: #587d60;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  color: #44644b;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: 0;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #C3B7AB;
+}
+
+::selection {
+  text-shadow: none;
+  background: #C3B7AB;
+}
+
+img::selection {
+  background: 0 0;
+}
+
+img::-moz-selection {
+  background: 0 0;
+}

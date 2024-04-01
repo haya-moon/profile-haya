@@ -1,5 +1,8 @@
-.btn-contact {
-  background-color: rgb(244, 192, 97);
+
+section h2.section-heading-about {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-size: 40px;
 }
 
 .timeline {
@@ -16,7 +19,7 @@
   left: 40px;
   width: 2px;
   margin-left: -1.5px;
-  background-color: #f1f1f1;
+  background-color: #44644b;
 }
 
 .timeline>li {
@@ -64,11 +67,11 @@
   width: 80px;
   height: 80px;
   margin-left: 0;
-  border: 7px solid #f1f1f1;
+  border: 7px solid #849588;
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: #85c894;
+  background-color: #587d60;
 }
 
 .timeline>li .timeline-image h4 {

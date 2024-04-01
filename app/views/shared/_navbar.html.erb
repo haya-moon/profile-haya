@@ -1,14 +1,6 @@
     <!-- Navigation -->
 
-    <script>
-  $(document).ready(function() {
-    $(".navbar-toggler").on("click", function() {
-      $(".collapse").collapse("toggle");
-    });
-  });
-</script>
-
-<nav class="navbar fixed">
+<nav class="navbar fixed-top">
       <%= link_to root_path, class: "navbar-brand mb-0" do %>
         <%= image_tag "haya.png", class: "logo", style: 'height: 75px; margin-left: -100px' %>
       <% end %>

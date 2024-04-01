@@ -5,8 +5,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   root to: 'pages#home'
   get 'about', to: 'pages#about'
-  get 'contact', to: 'pages#contact'
-  get 'work', to: 'pages#work'
-  get 'experience', to: 'pages#experience'
 
+  resources :contact_form, only: %i[new create]
 end

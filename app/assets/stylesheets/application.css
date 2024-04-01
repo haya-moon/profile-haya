@@ -15,7 +15,7 @@
  */
 
  body{
-  background: rgb(253, 247, 245);
+  background: #e9e1d2;
 }
 /*
 .header {
@@ -53,7 +53,7 @@ h1 {
   background: rgb(255, 255, 255);
   color: #000000;
   font-family: "Poppins";
-} */
+}
 
 /* .logo {
   width: 100%;
@@ -148,12 +148,12 @@ h1 {
 } */
 
 
-// Graphical variables
+// // Graphical variables
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
 
-// External libraries
+// // External libraries
 @import "bootstrap";
 @import "font-awesome";
 @import "flatpickr/dist/flatpickr.css";
