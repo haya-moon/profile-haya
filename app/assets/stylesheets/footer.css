@@ -1,3 +1,5 @@
+/* Footer */
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -19,12 +21,6 @@ footer ul.quicklinks {
   font-family: 'Poppins';
   line-height: 40px;
 }
-
-/* footer {
-  padding: 100px;
-  height: 100px;
-  align-items: center;
-} */
 
 /* Social Buttons */
 ul.social-buttons {

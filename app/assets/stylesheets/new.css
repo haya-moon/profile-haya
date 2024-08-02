@@ -10,7 +10,7 @@
 
 .form-group {
   font-family: 'Poppins';
-  color: white;
+  color: #f8f1e6;
   font-size: 15px;
 }
 
@@ -41,7 +41,7 @@ section#contact {
 }
 
 section#contact .section-heading-contact {
-  color: #fff;
+  color: #f8f1e6;
 }
 
 section#contact .form-group {

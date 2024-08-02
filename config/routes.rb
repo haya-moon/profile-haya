@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
   root to: 'pages#home'
-  get 'about', to: 'pages#about'
 
   resources :contact_form, only: %i[new create]
 end

@@ -29,6 +29,8 @@ gem "jbuilder"
 
 gem "sassc-rails"
 
+gem 'webpacker'
+
 gem "simple_form"
 
 
