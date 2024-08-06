@@ -48,13 +48,15 @@ h1 {
 .user-info h3{
   font-weight: 500;
 }
-
+/*
 // // Graphical variables
+
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
 
 // // External libraries
+
 @import "bootstrap";
 @import "font-awesome";
-@import "flatpickr/dist/flatpickr.css";
+@import "flatpickr/dist/flatpickr.css"; */
