@@ -35,6 +35,8 @@ gem "simple_form"
 
 gem "mail_form"
 
+gem 'ffi', '~> 1.15.0'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
