@@ -7,7 +7,6 @@
   background-size: cover;
 }
 
-
 .form-group {
   font-family: 'Poppins';
   color: #f8f1e6;
@@ -59,40 +58,4 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
   height: 236px;
-}
-
-section#contact .form-control:focus {
-  box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact .text-danger {
-  color: #e74c3c;
 }

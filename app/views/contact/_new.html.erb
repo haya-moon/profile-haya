@@ -3,7 +3,6 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading-contact">Contact Me</h2>
-        <%# <h3 class="section-subheading">Send me a message</h3> %>
       </div>
     </div>
 
@@ -11,7 +10,6 @@
       <div class="col-lg-12">
         <div class="row justify-content-center">
           <div class="col-md-6 container-contact">
-            <%# <%= form_tag '/send_email' do %>
             <%= form_with scope: :contact_form, url: contact_form_index_path, method: :post, local: true, class: "container" do |form| %>
               <div class="form-group">
                 <%= form.label :name, 'Name', class: 'form-control-label' %>

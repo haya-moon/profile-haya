@@ -8,22 +8,12 @@ p.large {
   font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-  outline: 0;
-}
-
 a {
   color: black;
+  outline: none;
 }
 
-a:hover,
-a:focus,
-a:active,
-a.active {
+a:hover, a:focus, a:active, a.active {
   color: #44644b;
 }
 
@@ -40,9 +30,8 @@ h6 {
 h5 {
   font-family: 'Playfair Display';
   text-align: center;
-  font-family: 'Playfair Display';
   font-size: 40px;
-  font-weight: 80px;
+  font-weight: normal;
   margin-top: 30%;
 }
 
@@ -55,6 +44,7 @@ h5 {
   background-color: #222;
 }
 
+/* Submit Button */
 .btn-primary {
   text-transform: uppercase;
   font-family: "Poppins";
@@ -80,29 +70,12 @@ h5 {
   background-image: none;
 }
 
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-  border-color: #587d60;
-  background-color: #587d60;
-}
 
 .btn-primary .badge {
   background-color: #f8f1e6;
 }
 
+/* Hire Me Button */
 .btn-xl {
   padding: 20px 40px;
   margin-top: 50px;
@@ -128,24 +101,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   background-image: none;
-}
-
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-
 }
 
 .btn-xl .badge {
@@ -224,38 +179,23 @@ section {
   margin-top: 80px;
 }
 
-section h2.section-heading {
+section h2 {
   margin-bottom: 60px;
   font-size: 40px;
 }
 
-section h2.section-heading-bottom {
+section h2 {
   margin-top: 10px;
   margin-bottom: 50px;
   font-size: 40px;
 }
 
-section h3.section-subheading {
+section h3{
   margin-bottom: 50px;
   text-transform: none;
   font-size: 20px;
   text-align: center;
   color: #f8f1e6;
-}
-
-.circle-img {
-  width: 150px; /* Adjust the width of the circle */
-  height: 150px; /* Adjust the height of the circle */
-  border-radius: 50%; /* Make the image circular */
-  border: 2px solid #ccc; /* Add a border to the circle */
-  overflow: hidden; /* Hide any content that exceeds the circle */
-  text-align: ;
-}
-
-.circle-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .carousel-inner {
@@ -283,5 +223,7 @@ section h3.section-subheading {
 }
 
 .card-section {
+  width: 50%;
+  height: 50%;
   margin-left: 25%;
 }

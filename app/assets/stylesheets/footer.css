@@ -1,25 +1,8 @@
 /* Footer */
-
 footer {
   padding: 25px 0;
   text-align: center;
   background-color: #f8f1e6;
-}
-
-footer span.copyright {
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: 'Poppins';
-  line-height: 40px;
-  font-size: 15px;
-}
-
-footer ul.quicklinks {
-  margin-bottom: 0;
-  text-transform: uppercase;
-  text-transform: none;
-  font-family: 'Poppins';
-  line-height: 40px;
 }
 
 /* Social Buttons */
@@ -52,22 +35,4 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: 0;
-}
-
-::-moz-selection {
-  text-shadow: none;
-  background: #C3B7AB;
-}
-
-::selection {
-  text-shadow: none;
-  background: #C3B7AB;
-}
-
-img::selection {
-  background: 0 0;
-}
-
-img::-moz-selection {
-  background: 0 0;
 }
